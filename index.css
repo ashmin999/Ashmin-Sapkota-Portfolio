@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+
+}
+
+.left h4 {
+    color: blue;
+    letter-spacing: 2.5px;
+    font-style: italic;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right ul li a:hover {
+    color: rgb(126, 125, 125);
+}
+
+.header-top {
+    text-align: center;
+    padding: 48px 0px;
+
+}
+
+.gra-text {
+    color: white;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.empower {
+    font-weight: 200 !important;
+    font-size: 1.9rem;
+    color: #6c757d !important;
+    margin-bottom: 1rem;
+}
+
+.empower2 {
+    background: linear-gradient(189deg, #1e30f3 10%, #e21e80 84%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+    padding: 0px 20px;
+}
+
+.resume {
+    margin-top: 1rem;
+}
+
+.resume a {
+    text-decoration: none;
+    color: white;
+    background-color: #1e30f3;
+    border: 1px solid #1e30f3;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 48px;
+    transition: all 1s ease-out;
+}
+
+.resume a:hover {
+    background-color: #2d38b6;
+}
+
+.btns {
+    display: flex;
+    margin-left: 1.5rem;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-btn {
+    margin-top: 1rem;
+}
+
+.portfolio-btn a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #6c757d;
+    background-color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 45px;
+    transition: all 1s ease-out;
+
+}
+
+.portfolio-btn a:hover {
+    background-color: black;
+    color: white;
+}
+
+.header-img img {
+    position: relative;
+    top: 1%;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+
+
+section {
+    text-align: center;
+}
+
+.portfolio-section {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: rgba(248, 249, 250, 1);
+}
+
+.portfolio h2 {
+    background:linear-gradient(135deg, #1e30f3 40%, #e21e80 54%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.card-hov:hover {
+    box-shadow: 1px 10px 20px 7px #8c8d8d;
+
+    transition: all 100ms linear;
+}
+
+.img-section,.img2-section{
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.img-section{
+    background-image: url(portfolio1img.png);
+}
+.img2-section{
+    background-image: url(portfolio1img.png);
+}
+
+
+.card-1,.card-2{
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.card-content,.card2-content {
+    padding: 1.5rem;
+    background-color: white;
+}
+
+.card-head{
+    
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-bottom {
+    font-style: italic;
+    margin: 0.5rem 0;
+    color: #6c757d !important;
+}
+.madecredit{
+    text-align: end;
+    margin-top: 0.5rem;
+}
+.aboutus {
+    margin: 0px 90px;
+    padding: 48px 48px 10px 48px;
+
+    text-align: center;
+}
+
+.aboutme {
+    background: linear-gradient(135deg, #1e30f3 40%, #e21e80 54%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38.27px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.aboutme-text {
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.links {
+    margin: 1.5rem 0;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: 3rem;
+    color: #6c757d;
+    transition: all 0.5s linear 0s;
+}
+
+.fa-facebook:hover,
+.fa-facebook-messenger:hover {
+    color: #2d38b6;
+}
+
+.fa-whatsapp:hover {
+    color: rgb(12, 184, 12);
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-right ul {
+    list-style: none;
+    gap: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* media queries */
+@media (max-width:600px) {
+    .right ul {
+        display: block;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:769px) {
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+
+    .empower {
+        font-size: 1.4rem;
+    }
+
+    .empower2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .empower {
+        font-size: 1.4rem;
+    }
+
+    .empower2 {
+        font-size: 2rem;
+    }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+        margin: 0 5rem 5rem 5rem;
+    }
+
+    .header-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 14rem;
+        width: 12rem;
+        flex-wrap: wrap;
+
+    }
+}
+.card a{
+    text-decoration: none;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .empower {
+        font-size: 0.8rem;
+    }
+
+    .empower2 {
+        font-size: 1.4rem;
+    }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-img img {
+        height: 12rem;
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .aboutus {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+}
+
+@media (max-width:319px) {
+    .empower {
+        font-size: 0.8rem;
+    }
+
+    .empower2 {
+        font-size: 1.4rem;
+    }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-img img {
+        height: 10rem;
+        width: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutus {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        flex-wrap: wrap;
+    }
+    .portfolio h2{
+        font-size: 1.5rem;
+    }
+}
