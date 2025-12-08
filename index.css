@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5F5F5;
+    color: #1A1A1A;;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #0A66C2;
+
+}
+
+.left h4 {
+    color: #FFFFFF;
+    letter-spacing: 2.5px;
+    font-style: italic;
+}
+
+.menu-box .fa-solid {
+    font-size: 1.5rem;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #FFFFFF;
+}
+
+.me-nu {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #0A66C2 0%, #0A90C2 35%, #FFB800 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.right ul a {
+    text-decoration: none;
+}
+
+.right ul a li {
+    color: #FFFFFF;
+}
+
+.right ul a li:hover {
+    color: #0D7BFF;
+}
+
+.header-top {
+    text-align: center;
+    padding: 48px 0px;
+
+}
+
+.gra-text {
+    color: white;
+    background: linear-gradient(135deg, #084A92, #0A66C2);
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.empower {
+    font-weight: 200 !important;
+    font-size: 1.9rem;
+    color: #6c757d !important;
+    margin-bottom: 1rem;
+}
+
+.empower2 {
+    background: linear-gradient(135deg, #084A92, #0A66C2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+    padding: 0px 20px;
+}
+
+.btns {
+    display: flex;
+    margin-left: 1.5rem;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.resume,
+.portfolio-btn {
+    margin-top: 1rem;
+}
+
+.resume a {
+    text-decoration: none;
+    color: white;
+    background-color: #0A66C2;
+    border: 1px solid #1e30f3;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 48px;
+    transition: all 1s ease-out;
+}
+
+.resume a:hover {
+    background-color: #2d38b6;
+}
+
+
+.portfolio-btn a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #6c757d;
+    background-color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 45px;
+    transition: all 1s ease-out;
+
+}
+
+.portfolio-btn a:hover {
+    background-color: black;
+    color: white;
+}
+
+.header-img img {
+    position: relative;
+    top: 1%;
+    border-radius: 50%;
+
+}
+
+
+section {
+    text-align: center;
+}
+
+/* skill and languages */
+.skill-section {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #0A66C2;
+}
+
+.skill-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-hov {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.skill-1,
+.skill-2,
+.skill-3 {
+    padding: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 233px;
+}
+
+.fa-html5,.fa-css3-alt,.fa-python{
+    font-size: 3rem;
+    color: #6c757d;
+}
+
+.skill-hov:hover {
+    border-radius: 15px;
+    background-color: rgb(221, 219, 219);
+    box-shadow: 0px 0px 20px 8px #8c8d8d;
+    transition: all 1s linear 0s;
+}
+
+.skill-hov:hover .h {
+    color: black;
+    transition: all 100ms linear 0s;
+    font-weight: 500;
+}
+
+.skill-hov:hover {
+    transform: scale(1.05);
+    transition: all 100ms linear 0s;
+}
+
+.skill-hov:hover .fa-html5 {
+    color: orangered;
+}
+
+.skill-hov:hover .fa-css3-alt {
+    transition: all 300ms linear 0s;
+    color: blue;
+}
+
+.skill-hov:hover .fa-python {
+    background: linear-gradient(135deg, rgb(57, 57, 168) 50%, rgb(233, 233, 29) 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-texts {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.html-content,
+.html2-content,
+.html3-content {
+    font-style: italic;
+    margin: 0.5rem 0;
+    color: #6c757d;
+    text-align: center;
+}
+
+.see-more-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+
+}
+
+.see-more-feature:hover {
+    background: linear-gradient(90deg, #0A66C2 0%, #0A90C2 35%, #FFB800 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.last-more {
+    margin: 10px 0px;
+}
+
+.last-more a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+
+.skill-text .lan {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #E0E0E0;
+}
+
+.skill-text h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* portfolio */
+.portfolio-section {
+    padding: 3rem 0;
+    text-align: center;
+
+}
+
+.portfolio h2 {
+    color: #0A66C2;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card-hov:hover {
+    box-shadow: 1px 10px 20px 7px #8c8d8d;
+    transition: all 1s ease-out;
+}
+
+.card-1,
+.card-2 {
+    width: 300px;
+    margin: 10px;
+
+
+}
+
+.card-1:hover,
+.card-2:hover {
+    transition: all 300ms linear 0s;
+    transform: scale(1.03);
+}
+
+.img-section,
+.img2-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+
+.img-section {
+    background-image: url(homephoto.png);
+}
+
+.img2-section {
+    background-image: url(portfolio1img.png);
+}
+
+.card-content,
+.card2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: white;
+    height: 133px;
+
+}
+
+.card-head {
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-bottom {
+    font-style: italic;
+    margin: 0.5rem 0;
+    color: #6c757d !important;
+}
+
+.madecredit {
+    text-align: end;
+    margin-top: 0.5rem;
+}
+
+/* about section */
+.aboutpage {
+    background-color: #0A66C2;
+    color: #F5F5F5;
+}
+
+.aboutus {
+    margin: 0px 90px;
+    padding: 48px 48px 10px 48px;
+
+    text-align: center;
+}
+
+.aboutme {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.aboutme-text {
+    margin-bottom: 1.5rem;
+}
+
+/* contact section */
+form{
+    text-align: center;
+}
+.contact-section {
+    padding: 3rem  1rem 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(248, 249, 250, 1); */
+}
+
+.contact-text h2 {
+    color: #0A66C2;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-text .touch {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-text{
+    margin-left: 1rem;
+}
+.contact-text .msg {
+    font-size: 0.8rem;
+    color: #6c757d;
+    padding: 0 1rem;
+    
+    margin-bottom: 1rem;
+}
+
+.contact-form,
+textarea {
+    width: 23rem;
+}
+
+.contact-dec {
+    margin: 1rem 0;
+}
+
+.contact-form input,
+textarea {
+    padding: 16px 0px 16px 12px;
+    border: 1px solid #9ca2a7;
+    border-radius: 0.3rem;
+    width: 100%;
+    
+}
+
+.contact-form input:focus {
+    outline: none;
+    border: 1px solid #0A66C2;
+    box-shadow: 0 0 5px #0A66C2;
+}
+
+textarea {
+   
+    resize: vertical;
+    overflow: auto;
+}
+
+textarea:focus {
+    outline: none;
+    border: 1px solid #0A66C2;
+    box-shadow: 0 0 5px #0A66C2;
+}
+
+.sbbm input {
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: 1px solid #1e30f3;
+    font-size: 0.5;
+    padding: 10px 10px;
+    transition: all 1s ease-out;
+    border-radius: 10px;
+}
+.submit-btn{
+text-align: center;
+margin-left: 1rem
+}
+
+.sbbm input:hover {
+    background-color: #0A66C2;
+    color: white;
+}
+
+/* footer section */
+footer{
+    background-color: #0A66C2;
+    color: #f5f5f5;
+}
+.foot{
+    padding: 10px;
+}
+.links {
+    margin: 0rem 0;
+}
+
+.links ul {
+    margin: 0.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa-facebook,.fa-facebook-messenger,.fa-whatsapp {
+    background-color: #f5f5f5;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: #8c8d8d;
+    transition: all 0.5s linear 0s;
+}
+
+.fa-facebook:hover,
+.fa-facebook-messenger:hover {
+    color: #2d38b6;
+    background-color: black;
+}
+
+.fa-whatsapp:hover {
+    color: rgb(12, 184, 12);
+    background-color: black;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-right ul {
+    list-style: none;
+    gap: 1rem;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.foot-right ul li a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+
+/* media queries */
+/* 1-For navbar */
+@media (max-width:600px) {
+    .navbar .right ul {
+        display: none;
+        background: linear-gradient(135deg, red 0%, #1e30f3 0%, #e21e80 70%);
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+        position: absolute;
+        top: 2.5rem;
+        right: 0;
+        z-index: 1;
+    }
+
+    .right ul li {
+        background-color: #6c757d;
+        padding: 10px;
+    }
+
+    .menu-box:hover ul {
+        display: block;
+    }
+
+    .navbar ul li {
+        margin: 30px;
+    }
+
+    .right ul li:hover {
+        background-color: #72cece;
+    }
+}
+
+@media (min-width:600px) {
+    .menu-box .fa-solid {
+        display: none;
+    }
+
+    .me-nu {
+        display: none;
+    }
+}
+
+/* navbar finish */
+@media (min-width:769px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+
+    .empower {
+        font-size: 1.4rem;
+    }
+
+    .empower2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .empower {
+        font-size: 1.4rem;
+    }
+
+    .empower2 {
+        font-size: 2rem;
+    }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+        margin: 0 5rem 5rem 5rem;
+    }
+
+    .header-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 14rem;
+        width: 12rem;
+        flex-wrap: wrap;
+
+    }
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+    .empower {
+        font-size: 0.8rem;
+    }
+
+    .empower2 {
+        font-size: 1.4rem;
+    }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-img img {
+        height: 12rem;
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .aboutus {
+        padding: 1rem;
+        margin: 1rem;
+    }
+       .contact-form,textarea {
+    width: 16rem;
+}
+ 
+}
+
+@media (max-width:319px) {
+    .empower {
+        font-size: 0.8rem;
+    }
+
+    .empower2 {
+        font-size: 1.4rem;
+    }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-head {
+        font-size: 1.5rem;
+    }
+
+    .header-img img {
+        height: 10rem;
+        width: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutus {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .portfolio h2,
+    .aboutme,
+    .skill-text h2,
+    .aboutme,
+    .contact-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .skill-text .lan,
+    .contact-text .touch {
+        font-size: 1rem;
+    }
+
+    .gra-text {
+        font-weight: 300;
+        font-size: 0.5rem;
+    }
+
+    .madecredit {
+        font-size: 0.7rem;
+    }
+     .contact-form,textarea {
+    width: 10rem;
+}
+}
